@@ -1,4 +1,4 @@
-import { Shield, Award, Clock, Users } from "lucide-react"
+import { Shield, Clock } from "lucide-react"
 
 const stats = [
   {
@@ -6,16 +6,7 @@ const stats = [
     value: "20+",
     label: "Years Experience",
   },
-  {
-    icon: Users,
-    value: "500+",
-    label: "Projects Completed",
-  },
-  {
-    icon: Award,
-    value: "100%",
-    label: "Satisfaction Guaranteed",
-  },
+
   {
     icon: Shield,
     value: "5 Star",
