@@ -170,9 +170,9 @@ export function QuoteForm() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-[family-name:var(--font-display)] text-[27px] md:text-[40px] font-bold text-foreground mb-4">
-            <p className="text-[#FB9109] text-base font-extrabold uppercase tracking-wider mb-2">
+            <span className="block text-[#FB9109] text-base font-extrabold uppercase tracking-wider mb-2">
               Have us give you a quote
-            </p>
+            </span>
             <span className="block leading-[1.4]">Whether you have a Small</span>
             <span className="block leading-[1.4]">Or much BIGGER Backyard Project in Mind</span>
           </h2>
