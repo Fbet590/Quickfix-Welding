@@ -169,14 +169,14 @@ export function QuoteForm() {
     <section id="quote-form" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <p className="text-primary font-semibold uppercase tracking-wider mb-2">
-            Get Started Today
-          </p>
           <h2 className="font-[family-name:var(--font-display)] text-[27px] md:text-[40px] font-bold text-foreground mb-4">
-            <span className="block">Simple Backyard · $8,200</span>
-            <span className="block">Simple but BIGGER Yards · $13,800</span>
+            <p className="text-[#FB9109] text-base font-extrabold uppercase tracking-wider mb-2">
+              Have us give you a quote
+            </p>
+            <span className="block">Whether you have a Small</span>
+            <span className="block">Or much BIGGER Backyard Project in Mind</span>
           </h2>
-          <p className="text-muted-foreground text-sm md:text-base max-w-lg mx-auto">
+          <p className="text-muted-foreground text-base md:text-base max-w-lg mx-auto">
             Need something bigger or more complex? No problem
           </p>
           <div className="w-16 h-px bg-muted-foreground/30 mx-auto my-4" />

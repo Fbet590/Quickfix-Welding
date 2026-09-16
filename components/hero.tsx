@@ -144,7 +144,7 @@ export function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-card/90 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Envisioned by you. Watch your  backyard transform in front of you.
+            Envisioned by you. Watch your  backyard transform.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
