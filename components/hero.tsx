@@ -153,15 +153,7 @@ export function Hero() {
               className="text-lg px-8 py-6 bg-[#061E11] hover:bg-[#061E11]/90 text-white"
               onClick={scrollToQuote}
             >
-              Get a Free Quote
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="text-lg px-8 py-6 bg-card/10 border-card border-2 text-card font-semibold hover:bg-card hover:text-foreground"
-              onClick={() => document.getElementById("gallery")?.scrollIntoView({ behavior: "smooth" })}
-            >
-              View Our Work
+              Have specific options you&apos;d like?
             </Button>
           </div>
 
