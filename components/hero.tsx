@@ -124,7 +124,7 @@ export function Hero() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-foreground/70 via-foreground/50 to-foreground/70" />
+          <div className="absolute inset-0 bg-gradient-to-b from-foreground/80 via-foreground/65 to-foreground/80" />
         </div>
 
         {/* Content */}

@@ -170,7 +170,9 @@ export function QuoteForm() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-[family-name:var(--font-display)] text-[27px] md:text-[40px] font-bold text-foreground mb-4">
-            <span className="block text-[30px] leading-[1.4]">Whether you have a small</span>
+                <span className="block text-[30px] leading-[1.4]">
+                  Whether you have a <span className="text-[20px]">small</span>
+                </span>
             <span className="block text-[30px] leading-[1.4]">Or much BIGGER Project in Mind</span>
           </h2>
           <span className="block text-[#FB9109] text-xl font-extrabold uppercase tracking-wider mb-2">
