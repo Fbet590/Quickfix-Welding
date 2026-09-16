@@ -170,14 +170,16 @@ export function QuoteForm() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-[family-name:var(--font-display)] text-[27px] md:text-[40px] font-bold text-foreground mb-4">
-            <span className="block leading-[1.4]">Whether you have a Small</span>
-            <span className="block leading-[1.4]">Or much BIGGER Project in Mind</span>
+                <span className="block text-[30px] leading-[1.4]">
+                  Whether you have a <span className="text-[20px]">small</span>
+                </span>
+            <span className="block text-[30px] leading-[1.4]">Or much BIGGER Project in Mind</span>
           </h2>
-          <span className="block text-[#FB9109] text-lg font-extrabold uppercase tracking-wider mb-2">
+          <span className="block text-[#FB9109] text-xl font-extrabold uppercase tracking-wider mb-2">
             Have us reach out
           </span>
           <div className="w-16 h-px bg-muted-foreground/30 mx-auto my-4" />
-          <p className="text-foreground text-base md:text-lg font-medium max-w-lg mx-auto">
+          <p className="text-foreground text-lg md:text-lg font-medium max-w-lg mx-auto">
             Fill out the form and we&apos;ll do the rest!<br />
             No pressure, no commitment.
           </p>
@@ -215,7 +217,7 @@ export function QuoteForm() {
           {/* Step 1: Name */}
           {step === 1 && (
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-background text-center mb-4">
+              <h3 className="text-xl font-semibold text-background text-center mb-4">
                 What&apos;s your name?
               </h3>
               <Input
