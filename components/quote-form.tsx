@@ -173,12 +173,9 @@ export function QuoteForm() {
             <p className="text-[#FB9109] text-base font-extrabold uppercase tracking-wider mb-2">
               Have us give you a quote
             </p>
-            <span className="block">Whether you have a Small</span>
-            <span className="block">Or much BIGGER Backyard Project in Mind</span>
+            <span className="block leading-[1.4]">Whether you have a Small</span>
+            <span className="block leading-[1.4]">Or much BIGGER Backyard Project in Mind</span>
           </h2>
-          <p className="text-muted-foreground text-base md:text-base max-w-lg mx-auto">
-            Need something bigger or more complex? No problem
-          </p>
           <div className="w-16 h-px bg-muted-foreground/30 mx-auto my-4" />
           <p className="text-foreground text-base md:text-lg font-medium max-w-lg mx-auto">
             Fill out the form and we&apos;ll do the rest!<br />
